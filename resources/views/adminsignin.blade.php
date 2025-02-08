@@ -39,6 +39,11 @@
                 required autofocus>
             <label for="adminPass" class="sr-only">Password</label>
             <input type="password" name="adminPass" id="adminPass" class="form-control" placeholder="Password" required>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" name="remember" id="remember"> Remember me
+                </label>
+            </div>
             <button type="submit" class="btn btn-lg btn-primary btn-block">Submit</button>
         </form>
     </div>
